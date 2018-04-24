@@ -1,11 +1,11 @@
 import random
 x = random.randrange(0, 101, 2)
 if x <= 30:
-	print "Quang oc lz"
+	print "Between 0 - 30"
 elif x <= 60:
-	print "Quang suc vat"
+	print "Between 31 - 60"
 elif x <= 90:
-	print "Quang cuc suc"
+	print "Between 61 - 90"
 else:
 	print "game over"
 
